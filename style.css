@@ -1,0 +1,155 @@
+.pre-header {
+    width: 2014px;
+    height: 30px;
+}
+
+.pre-header {
+    background-color: #efefef;
+    height: 30px;
+    padding: 15px 0px;
+}
+
+.container {
+    width: 1296px;
+    height: 30px;
+}
+
+.container {
+    width: 1296px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.col-lg-8,
+.col-sm-8,
+.col-7 {
+    width: 856px;
+    height: 30px;
+}
+
+@media(min-width:992px) {
+    .col-lg-8 {
+        flex: 0 0 auto;
+        flex-shrink: 0;
+        flex-basis: auto;
+        width: 66.666666%;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.info {
+    width: 856px;
+    height: 24px;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.pre-header ul.info li {
+    margin-right: 45px;
+}
+
+.pre-header ul li {
+    display: inline-block;
+}
+
+.pre-header ul.info li a {
+    color: #afafaf;
+    font-size: 14px;
+    transition: all .3s;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.fa-envelope::before {
+    content: "\f0e0";
+}
+
+.pre-header ul.info li a i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+
+
+    transform: translate(0, 0);
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+@media (min-width: 576px){
+.col-sm-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+}
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+.col-lg-4, .col-sm-4, .col-5{
+  width: 416px;
+}
+.pre-header ul.social-media {
+  text-align: right;
+}
+.pre-header ul.social-media li {
+  margin-left: 5px;
+}
+.pre-header ul.social-media li a {
+  background-color: #afafaf;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  transition: all .3s;
+}
